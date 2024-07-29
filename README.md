@@ -17,14 +17,14 @@ O con pip
 pip install cookiecutter
 ```
 
-## Crea un proyecto nuevo
+## Crea un proyecto nuevo.
 
 En el directorio que pretendas usar para colocar el directorio raíz del nuevo proyecto, ejecuta:
 ```sh
 cookiecutter https://github.com/Changeryto/Plantilla_DataScience_Python.git
 ```
 
-## Estructura de directorios
+## Estructura de directorios.
 
 .
 ├── data
