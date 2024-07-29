@@ -1,7 +1,7 @@
 {
-    "project_title": "Cookiecutter Personal",
-    "project_slug": "cookiecutter_personal",
-    "project_description": "Exploratory analisis",
+    "project_title": "Cookiecutter Nuevo",
+    "project_slug": "cookiecutter_nuevo",
+    "project_description": "Data analisis with Python",
     "project_author_name": "Rubén Téllez Gerardo",
     "project_packages": ["All", "Exploratory"],
     "python_version": "3.12.4"

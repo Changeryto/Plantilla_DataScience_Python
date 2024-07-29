@@ -15,11 +15,26 @@ dependencies:
   - matplotlib
   - numpy
   - seaborn
+  - scipy
+  - statsmodels
+  - scikit-learn
+{% elif cookiecutter.project_packages == "Exploratory" -%}
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - polars
+  - pandas
+  - matplotlib
+  - numpy
+  - seaborn
+  - scipy
+  - statsmodels
   {% endif -%}
   - pip
-{% if cookiecutter.project_packages == "All" -%}
+#{% if cookiecutter.project_packages == "All" -%}
   - pyprojroot
-{% endif -%}
+#{% endif -%}
   - python={{ cookiecutter.python_version }}
   - pip:
   {% if cookiecutter.project_packages == "All" -%}
