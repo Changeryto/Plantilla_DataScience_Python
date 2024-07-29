@@ -10,3 +10,8 @@ Lo que esté dentro de la carpeta {{ cookiecutter.project_slug }} representa el 
 Una vez activado tal entorno, ejecute
 
 cookiecutter .
+
+Los Hooks son instrucciones que se ejecutan antes o después de generar la plantilla de datos.
+
+Ejemplo, verificar un nombre válido como paquete de datos.
+Iniciar un repositorio en git.
