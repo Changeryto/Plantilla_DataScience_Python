@@ -1,0 +1,8 @@
+"coockiecutter esta en conda-forge"
+
+Creamos un entorno con
+
+conda create --name cookiecutter-personas cookiecutter=version
+
+
+Lo que esté dentro de la carpeta {{ cookiecutter.project_slug }} representa el entorno, todo lo que se creará cada que se cree la plantilla.
