@@ -5,7 +5,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-{% if cookiecutter.project_packages == "All" -%}
+  {% if cookiecutter.project_packages == "All" -%}
   - fs
   - jupyter
   - jupyterlab
@@ -18,7 +18,7 @@ dependencies:
   - scipy
   - statsmodels
   - scikit-learn
-{% elif cookiecutter.project_packages == "Exploratory" -%}
+  {% elif cookiecutter.project_packages == "Exploratory" -%}
   - fs
   - jupyter
   - jupyterlab
@@ -32,9 +32,9 @@ dependencies:
   - statsmodels
   {% endif -%}
   - pip
-#{% if cookiecutter.project_packages == "All" -%}
+# {% if cookiecutter.project_packages == "All" -%}
   - pyprojroot
-#{% endif -%}
+# {% endif -%}
   - python={{ cookiecutter.python_version }}
   - pip:
   {% if cookiecutter.project_packages == "All" -%}
