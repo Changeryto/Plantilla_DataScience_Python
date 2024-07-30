@@ -10,6 +10,8 @@ echo "Repositorio inicializado correctamente."
 read -p "¿Crear nuevo entorno en conda? [(n)/y]: " user
 
 if [ "$user" = "y" ]; then
+    conda deactivate
+    conda activate base
     conda env create --file environment.yml && echo "Ambiente de conda creado con exito."
     conda activate {{ cookiecutter.project_slug }}
 fi
